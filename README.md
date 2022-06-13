@@ -1,6 +1,7 @@
-# dynCpy by Brian Stoker
+# dynCpy
+by Brian Stoker
 
-## Copy all the data from one table to another
+## Copy all the data from one dynamodb table to another as quick as possible
 
 ### Version: 0.1.0
 
