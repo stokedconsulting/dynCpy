@@ -14,7 +14,7 @@ basic functionality using npm link and environment variables
 ### Install
 
 ```bash
-npm link
+npm i dyncpy -g
 ```
 
 ### Example
