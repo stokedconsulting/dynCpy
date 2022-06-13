@@ -1,0 +1,35 @@
+{
+  "name": "dyncpy",
+  "version": "0.1.0",
+  "description": "Copy all the data from one table to another",
+  "main": "scanIt.js",
+  "bin": {
+    "dynCpy": "scanIt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Stoker",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.105.0",
+    "@aws-sdk/lib-dynamodb": "^3.105.0",
+    "@shelf/dynamodb-parallel-scan": "^3.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stokedconsulting/dynCpy.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "nodejs",
+    "copy",
+    "tables",
+    "fast"
+  ],
+  "bugs": {
+    "url": "https://github.com/stokedconsulting/dynCpy/issues"
+  },
+  "homepage": "https://github.com/stokedconsulting/dynCpy#readme"
+}
